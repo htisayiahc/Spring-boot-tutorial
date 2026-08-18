@@ -35,7 +35,7 @@ public class GroceryItemService {
         }
     }
 
-    public Optional<GroceryItem> findAllByItemId(String itemId) {
-        return groceryItemRepository.findById(itemId);
+    public Optional<GroceryItem> findAllByItemId(String id) {
+        return groceryItemRepository.findById(id);
     }
 }
