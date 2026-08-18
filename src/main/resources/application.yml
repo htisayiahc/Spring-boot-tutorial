@@ -1,0 +1,14 @@
+spring:
+    mongodb:
+      uri: mongodb://root:example@127.0.0.1:27019/tutorial?authSource=admin
+
+mongock:
+    migration-scan-package: mongodb.tutorial.migration
+
+#      host: localhost
+#      port: 27019
+#      database: tutorial
+#      username: root
+#      password: example
+#      authentication-database: admin
+#      uuid-representation: standard
